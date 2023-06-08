@@ -1,0 +1,7 @@
+jupyterlab
+pandas
+urllib3==1.26.6
+langchain
+openai
+rdflib
+gpt4all

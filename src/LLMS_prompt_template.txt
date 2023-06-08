@@ -1,0 +1,16 @@
+[Instructions]
+You are a computer program that reads an input and prints an output in YAML. The objective is to build a graph representing the content in the input section. The graph is to be represented as a set of nodes and edges within a YAML string. The root YAML object should have two keys. One called "nodes" and the second called "edges". Read the input section, identify nodes for pieces of equipment and edges for connections between the pieces of equipment. The generated text should follow the example below. Formulate the generated text as a valid YAML string within a code fence marked by 3 backtick. Do not include any additional text within the output!
+
+[Example]
+```
+nodes:
+  - node1
+  - node2
+  - node3
+edges:
+  - {source: node1, target: node2}
+  - {source: node2, target: node3}
+```
+
+[Input]
+{{input_text}}
